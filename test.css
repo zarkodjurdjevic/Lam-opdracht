@@ -1,14 +1,48 @@
 body {
-    background-color: rgba(60, 161, 201, 0.521);
-    padding: 20px;
-    margin: 130px;
+    background-color: rgb(255, 255, 255);
+    
     
 }
-img {
-    background-color: red;
+.logo2 {
+    background-color: rgb(255, 255, 255);
+    
+    height: 95x;
+    width: 200px;
+    
+}
+
+.menu {
+    justify-self: flex-end;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: red;
+    
+}
+
+.bovenvlak {
+    background-color:#c2b8b8;
+    
+}
+.tickets {
+    border: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    display: block;
     padding: 20px;
-    margin: 20px;
-    height: 250px;
-    width: 500px;
-    margin-left: 100px;
+    margin: 10px;
+    color: white;
+    
+}
+
+.opening {
+    border: red;
+    background-color: rgb(255, 255, 255);
+    display: block;
+    padding: 20px;
+    margin: 20px;   
+}
+
+.hallo {
+    width: 1887px;
+    height: 1300px;
 }
