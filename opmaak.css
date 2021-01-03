@@ -1,0 +1,66 @@
+body {
+    background-color: rgb(255, 255, 255);
+    
+    
+}
+.logo2 {
+    background-color: rgb(255, 255, 255);
+    
+    height: 95x;
+    width: 200px;
+    
+}
+
+.menu {
+    justify-self: flex-end;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: red;
+    
+}
+
+.bovenvlak {
+    background-color:#c2b8b8;
+    height: 180px;
+}
+.tickets {
+    border: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    display: block;
+    padding: 20px;
+    margin: 10px;
+    color: white;
+    
+}
+
+.opening {
+    border: red;
+    background-color: rgb(255, 255, 255);
+    display: block;
+    padding: 20px;
+    margin: 20px;   
+}
+
+.hallo {
+    width: 1887px;
+    height: 1300px;
+}
+<<<<<<< HEAD:test.css
+
+.contact {
+    border: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    display: block;
+    padding: 20px;
+    margin: 10px;
+    color: white;    
+=======
+.info{
+    margin: 20%;
+    width: 30%;
+    padding-left: 50%;
+    padding-top: 0%;
+    padding-bottom: 90%;
+>>>>>>> a53dc05844a2af498c8c456fa8d168f1a37556ef:opmaak.css
+}
