@@ -22,7 +22,7 @@ body {
 
 .bovenvlak {
     background-color:#c2b8b8;
-    
+    height: 180px;
 }
 .tickets {
     border: rgb(0, 0, 0);
@@ -52,4 +52,13 @@ body {
     padding-left: 50%;
     padding-top: 0%;
     padding-bottom: 90%;
+}
+
+.contact {
+    border: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    display: block;
+    padding: 20px;
+    margin: 10px;
+    color: white;    
 }
