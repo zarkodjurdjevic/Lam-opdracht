@@ -46,7 +46,6 @@ body {
     width: 1887px;
     height: 1300px;
 }
-<<<<<<< HEAD:test.css
 
 .contact {
     border: rgb(0, 0, 0);
@@ -55,12 +54,14 @@ body {
     padding: 20px;
     margin: 10px;
     color: white;    
-=======
-.info{
+}
+
+.info {
     margin: 20%;
     width: 30%;
     padding-left: 50%;
     padding-top: 0%;
     padding-bottom: 90%;
->>>>>>> a53dc05844a2af498c8c456fa8d168f1a37556ef:opmaak.css
+
 }
+
