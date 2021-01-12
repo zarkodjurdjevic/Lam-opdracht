@@ -118,19 +118,24 @@ body {
 .adres1 {
     padding-right: 30px;
     margin: 30px;
+    
 }
 
 .knoptickets {
     height: 60px;
-    width: 70px;
+    width: 80px;
+    margin: 20px;
+
 }
 
 .tijden {
     height: 60px;
-    width: 130px;
+    width: 135px;
+    margin: 20px;
 }
 
 .contact12 {
     height: 60px;
     width: 85px;
+    margin: 20px;
 }
