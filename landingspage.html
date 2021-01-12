@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Image slider</title>
     <link rel="stylesheet" href="opmaak.css">
-
+    <link rel="stylesheet" href="fotoslider/style.css">
 </head>
 
 
@@ -15,17 +15,81 @@
         <img class="logo2" src="afb/images.png" alt="Logo van het museum">
             
     </div>
+<<<<<<< HEAD
         <div class="menu">
             <button class="knoptickets" onclick="document.location='https://www.lamlisse.nl/tickets'">TICKETS</button>
             <button class="tijden" onclick="document.location='https://www.lamlisse.nl/openingstijden'">OPENINGSTIJDEN</button>
             <button class="contact12" onclick="document.location='https://www.lamlisse.nl/contact'">CONTACT</button>
         </div>
     </div>
+=======
+        <lu class="menu">
+            <li class="tickets"><a href="https://www.lamlisse.nl/tickets/">tickets</a></li>
+            <li class="opening"><a href="https://www.lamlisse.nl/openingstijden/">openingstijden</a>    </li>
+            <li class="contact"><a href="https://www.lamlisse.nl/contact" >contact</a>     </li>
+        </lu>
+>>>>>>> 6ae918db147cf8ab9065c011c6af640f8b027255
         <div class="gebouwfoto">
             <img class="hallo" src="afbeeldingen/gebouw-lam1.jpg" alt="Logo van het museum">
     <div class="kleur1">
 
     </div>
+
+
+    <div class="slider">
+        <div class="slides"> 
+            <!--radio buttons start-->
+            <input type="radio" name="radio-btn" id="radio1" >
+            <input type="radio" name="radio-btn" id="radio2" >
+            <input type="radio" name="radio-btn" id="radio3" >
+            <input type="radio" name="radio-btn" id="radio4" >
+            <!--radio buttons end-->
+            <!--slide Image start-->
+            <div class="slide first">
+                <img src="fotoslider/beker1.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="fotoslider/muur1.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="fotoslider/LAM-filmpje-Bad-Grapes_FCZ2924-CZFc2020-027.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="fotoslider/Lisse-113.jpg" alt="">
+            </div>
+            <!--slide Image end-->
+            <!--automtic navigation start-->
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+            </div>
+            <!--automtic  navigation end-->
+        </div>
+        <!--manual navigation start-->
+        <div class="navigation-manual">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+        </div>
+        <!--manual navigation end-->
+
+    </div>
+    <!--Image slider Eind-->
+    <script type="text/javascript"> 
+    var counter = 1; 
+    setInterval(function(){
+        document.getElementById('radio' + counter).checked = true;
+        counter++;
+        if(counter > 4){
+            counter = 1;
+        }
+    },5000);
+    
+    
+    </script>
         
         <section class="info"> 
         
@@ -37,8 +101,8 @@
             Het LAM is leuk voor nieuwsgierige mensen van 7 tot 107 jaar. We overladen je niet met informatie maar prikkelen je de kunst echt te bekijken. Een open blik en lol hebben in het kijken, daar draait het om. Voor wie zin heeft, 
             is er een digitale tour op je eigen smartphone. De medewerkers helpen je ook graag.</p>
         </section>    
-    <div>
 
+    <div>
 
     </div class="video">    
         <video width="520" height="340" controls>
@@ -47,6 +111,7 @@
         Your browser does not support the video tag.
         </video>
     </div>
+
     <div class="reviews">
         <h1 style="color: white;">bekijk hier de reviews over het LISSE Art Museum</h1>
         <div class="reviewlink">
@@ -72,5 +137,6 @@
     
     
     </div>
+
 </body>
 </html>
