@@ -17,12 +17,14 @@ body {
     align-items: center;
     justify-content: center;
     border: red;
+    padding-top: 0px;
     
 }
 
 .bovenvlak {
     background-color:#c2b8b8;
     height: 180px;
+    width: 1887px;
 }
 .tickets {
     border: rgb(0, 0, 0);
@@ -93,12 +95,11 @@ body {
 }
 
 .reviewlink {
-    display: block;
-    background-color: white;
-    width: 65px;
-    height: 30px;
-    padding: 50px;
-    margin: 80px;
+    
+    
+    justify-content: space-between;
+    display: flex;
+    
 }
 
 .kleur1 {
@@ -125,33 +126,10 @@ body {
     height: 5px;
 
 
-<<<<<<< HEAD
+
 }
 
-.adres1 {
-    padding-right: 30px;
-    margin: 30px;
+.reviewslam {
+     
     
-}
-
-.knoptickets {
-    height: 60px;
-    width: 80px;
-    margin: 20px;
-
-}
-
-.tijden {
-    height: 60px;
-    width: 135px;
-    margin: 20px;
-}
-
-.contact12 {
-    height: 60px;
-    width: 85px;
-    margin: 20px;
-=======
-
->>>>>>> 6ae918db147cf8ab9065c011c6af640f8b027255
 }
