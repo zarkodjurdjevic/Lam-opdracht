@@ -1,10 +1,10 @@
 body {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(199, 98, 51);
     
     
 }
 .logo2 {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(199, 98, 51);
     
     height: 95x;
     width: 200px;
@@ -16,13 +16,12 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: red;
-    padding-top: 0px;
+ 
     
 }
 
 .bovenvlak {
-    background-color:#c2b8b8;
+    background-color: rgb(199, 98, 51);
     height: 180px;
     width: 1887px;
 }
@@ -131,5 +130,22 @@ body {
 
 .reviewslam {
      
+    
+}
+
+.knoptickets {
+    margin-right: 25px;
+    width: 90px;
+    height: 40px;
+
+}
+.tijden {
+    width: 135px;
+    height: 40px;
+    margin-right: 25px;
+}
+.contact12 {
+    width: 95px;
+    height: 40px;
     
 }
