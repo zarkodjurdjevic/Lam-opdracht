@@ -101,7 +101,7 @@ body {
     background: rgb(153, 111, 82);
     height: 300px;
     width: 100%;
-    margin-top: 11%;
+    margin-top: 4%;
 
 }
 
@@ -185,7 +185,8 @@ body {
 
 .tekstquiz{
     margin-left: 50%;
-    margin-top: -25%;
+    margin-top: -27%;
+
 }
 .quiz1{
     margin-left: 25px;
@@ -202,6 +203,15 @@ body {
     width: 250px;
     background-color: rgb(153, 111, 82);
     color: white;
-    margin-left: 17%;
+    margin-left: 24%;
     font-size: 50px;
+
+}
+.titelquiz {
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.quizintro {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
 }    
