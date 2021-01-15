@@ -91,18 +91,13 @@ body {
 }
 
 
-.video {
-    margin: 300px;
-    padding: 300px;
-}
+
 
 .reviews {
     display: block;
     background: rgb(153, 111, 82);
     height: 300px;
     width: 100%;
-
-
     margin-top: 4%;
 
 
@@ -142,11 +137,15 @@ body {
 
 }
 
-.reviewslam {
-    font-size: 40px;
-    
-    
-}
+.reviewknop{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 20px;
+   background-color: rgb(153, 111, 82);
+   border: 3px solid black;
+   color: white;
+   margin-left: 50%;
+   
+}   
 
 .knoptickets {
     margin-right: 25px;
