@@ -85,7 +85,9 @@ body {
 .info2{
     font-size: 25px;
     color: white;
-    margin-right: 20px;
+    margin-left: 88%;
+    margin-top: -3%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -99,6 +101,7 @@ body {
     background: rgb(153, 111, 82);
     height: 300px;
     width: 100%;
+    margin-top: 11%;
 
 }
 
@@ -182,7 +185,7 @@ body {
 
 .tekstquiz{
     margin-left: 50%;
-
+    margin-top: -25%;
 }
 .quiz1{
     margin-left: 25px;
@@ -194,3 +197,11 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     border: 1px solid black;
 }
+.quiz2 {
+    height: 160px;
+    width: 250px;
+    background-color: rgb(153, 111, 82);
+    color: white;
+    margin-left: 17%;
+    font-size: 50px;
+}    
