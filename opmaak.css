@@ -51,7 +51,7 @@ body {
 
         
 
-}
+
 
 .contact {
     border: rgb(0, 0, 0);
@@ -112,7 +112,7 @@ body {
 .kleur1 {
     background-color: rgb(153, 111, 82);
     width: 100%;
-    height: 100px;
+    height: 150px;
     margin: 0px;
     padding: 0px;
 
@@ -137,7 +137,7 @@ body {
 }
 
 .reviewslam {
-     
+     font-size: 40px;
     
     
 }
@@ -172,4 +172,14 @@ body {
     font-size: 12px;
     font-family: Arial, Helvetica, sans-serif;
     border: 1px solid black;
+}
+
+.lijn1{
+    height: 150px;
+    width: 100%;
+    background-color: rgb(153, 111, 82);
+}
+
+.tekstquiz{
+    margin-left: 50%;
 }
