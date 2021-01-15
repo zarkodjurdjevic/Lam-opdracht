@@ -182,4 +182,15 @@ body {
 
 .tekstquiz{
     margin-left: 50%;
+
+}
+.quiz1{
+    margin-left: 25px;
+    width: 90px;
+    height: 40px;
+    color: black;
+    background-color: white;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid black;
 }
