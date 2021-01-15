@@ -86,7 +86,8 @@ body {
     font-size: 25px;
     color: white;
     margin-left: 88%;
-    font-family: Arial, Helvetica, sans-serif;,
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -1%;
 }
 
 
@@ -100,6 +101,10 @@ body {
     background: rgb(153, 111, 82);
     height: 300px;
     width: 100%;
+
+
+    margin-top: 4%;
+
 
 }
 
@@ -179,10 +184,12 @@ body {
     height: 150px;
     width: 100%;
     background-color: rgb(153, 111, 82);
+    margin-top: -4%;
 }
 
 .tekstquiz{
     margin-left: 50%;
+    margin-top: -20%;
 
 }
 .quiz1{
@@ -195,3 +202,21 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     border: 1px solid black;
 }
+.quiz2 {
+    height: 160px;
+    width: 250px;
+    background-color: rgb(153, 111, 82);
+    color: white;
+    margin-left: 24%;
+    font-size: 50px;
+
+}
+.titelquiz {
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.quizintro {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}    
+
