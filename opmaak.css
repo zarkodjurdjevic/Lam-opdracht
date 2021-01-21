@@ -76,10 +76,10 @@ body {
 
 .info {
     margin: 15%;
-    width: 30%;
+    width: 45%;
     height: 40px;
     padding-bottom: 5%;
-    margin-top: -435px;
+    margin-top: -405px;
     margin-left: 48%;
 }
 .info2{
@@ -98,7 +98,7 @@ body {
     background: rgb(153, 111, 82);
     height: 300px;
     width: 100%;
-    margin-top: 4%;
+    margin-top: 6%;
 
 
 }
@@ -107,7 +107,7 @@ body {
     
     justify-content: space-between;
     display: flex;
-    
+    margin-right: 250px;
 }
 
 .kleur1 {
