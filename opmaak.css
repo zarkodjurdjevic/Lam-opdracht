@@ -138,12 +138,15 @@ body {
 }
 
 .reviewknop{
-   font-family: Arial, Helvetica, sans-serif;
-   font-size: 20px;
-   background-color: rgb(153, 111, 82);
-   border: 3px solid black;
-   color: white;
-   margin-left: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid black;
+    color: black;
+    margin-left: 190%;
+    margin-top: 40%;
+    width: 180%;
+    height: 30%;
    
 }   
 
